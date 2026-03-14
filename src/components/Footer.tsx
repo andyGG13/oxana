@@ -52,10 +52,10 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
+          {/* Contact Info & Opening Hours */}
           <div>
             <h3 className="font-semibold mb-4">Kontakt</h3>
-            <div className="space-y-3 text-sm">
+            <div className="space-y-3 text-sm mb-6">
               <div>
                 <p className="text-cream/70 mb-1">Telefon</p>
                 <a href="tel:094120059325" className="text-accent hover:text-opacity-80 transition font-semibold">
@@ -69,6 +69,20 @@ export default function Footer() {
                   93057 Regensburg
                 </p>
               </div>
+            </div>
+            <div className="mt-4">
+              <h4 className="font-semibold text-cream mb-2">Öffnungszeiten</h4>
+              <table className="text-cream/80 text-sm">
+                <tbody>
+                  <tr><td className="pr-3">Montag</td><td>09:00 – 18:00</td></tr>
+                  <tr><td className="pr-3">Dienstag</td><td>09:00 – 18:00</td></tr>
+                  <tr><td className="pr-3">Mittwoch</td><td>09:00 – 18:00</td></tr>
+                  <tr><td className="pr-3">Donnerstag</td><td>09:00 – 18:00</td></tr>
+                  <tr><td className="pr-3">Freitag</td><td>09:00 – 18:00</td></tr>
+                  <tr><td className="pr-3">Samstag</td><td>09:00 – 14:00</td></tr>
+                  <tr><td className="pr-3">Sonntag</td><td>geschlossen</td></tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>

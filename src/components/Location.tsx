@@ -37,9 +37,9 @@ export default function Location() {
 
             {/* Info Box */}
             <div className="bg-light-gray p-6 rounded-lg">
-              <h3 className="font-semibold text-dark mb-3">Schnell erreichbar</h3>
+              <h3 className="font-semibold text-dark mb-3">Bequem erreichbar</h3>
               <p className="text-dark/70 text-sm leading-relaxed">
-                Der Salon befindet sich zentral in Regensburg in der Nähe von bekannten Landmarks und Vierteln. Die meisten Kunden sind in wenigen Minuten mit dem Auto oder zu Fuß bei uns.
+                Unser Salon liegt zentral in Regensburg – Sie erreichen uns bequem mit dem Auto (Parkplätze sind direkt vor Ort vorhanden) oder mit öffentlichen Verkehrsmitteln. Die Bushaltestelle <strong>Pommerstraße</strong> (Linie 1, direkt vom Hauptbahnhof) ist nur wenige Schritte entfernt. Auch aus der Innenstadt und den umliegenden Stadtteilen sind wir schnell erreichbar.
               </p>
             </div>
           </div>
