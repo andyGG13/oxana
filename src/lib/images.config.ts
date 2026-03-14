@@ -15,26 +15,26 @@ export const images = {
       src: '/images/O_1.jpg',
       title: 'Haare – Schnitt/Farbe',
       category: 'Prozess',
-      alt: 'Haare während des Prozesses 1',
+      alt: 'Haarschnitt und Coloration – Friseursalon Oxana Regensburg, Beispiel 1',
     },
     {
       src: '/images/O_2.jpg',
       title: 'Haare – Schnitt/Farbe',
       category: 'Prozess',
-      alt: 'Haare während des Prozesses 2',
+      alt: 'Haarschnitt und Coloration – Friseursalon Oxana Regensburg, Beispiel 2',
     },
     {
       src: '/images/O_3.jpg',
       title: 'Haare – Schnitt/Farbe',
       category: 'Prozess',
-      alt: 'Haare während des Prozesses 3',
+      alt: 'Haarschnitt und Coloration – Friseursalon Oxana Regensburg, Beispiel 3',
     },
   ],
 
   // Why Us Section - Bild vor Kontakt
   whyUs: {
     src: '/images/salon-2.jpg',
-    alt: 'Salon Innenansicht',
+    alt: 'Innenansicht Friseursalon Oxana Regensburg – moderner, heller Salon',
   },
 }
 

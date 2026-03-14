@@ -76,9 +76,9 @@ export default function Hero() {
 
           {/* Hero-Bild auf Desktop rechts */}
           <div className="hidden md:block relative h-[400px] md:h-[500px] bg-light-gray rounded-lg overflow-hidden shadow-xl">
-            <Image
+              <Image
               src={images.hero.src}
-              alt={images.hero.alt}
+                alt="Friseursalon Oxana in Regensburg – moderner Salon, freundliches Team"
               fill
               className="object-cover"
               priority
