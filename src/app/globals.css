@@ -1,0 +1,110 @@
+/* Einheitliche Fade-Up Animation */
+.animate-fade-up {
+  opacity: 0;
+  transform: translateY(24px);
+  animation: fadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans bg-cream text-dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif;
+}
+
+/* Smooth transitions */
+a, button {
+  @apply transition-colors duration-200;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-cream;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-accent rounded-full hover:bg-opacity-80;
+}
+
+/* Focus states for a11y */
+a:focus-visible,
+button:focus-visible {
+  @apply outline-2 outline-offset-2 outline-accent;
+}
+
+/* Link underlines */
+a {
+  @apply no-underline;
+}
+
+a:not([class]) {
+  @apply underline underline-offset-2 hover:text-accent;
+}
+
+/* Responsive images */
+img {
+  @apply max-w-full h-auto;
+}
+
+/* Section spacing utility */
+section {
+  @apply scroll-mt-20;
+}
+
+/* Animations */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.6s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Print styles */
+@media print {
+  header,
+  footer {
+    @apply hidden;
+  }
+}
