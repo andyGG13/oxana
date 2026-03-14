@@ -55,7 +55,7 @@ export default function Reviews() {
 
               {/* Review Text */}
               <p className="text-dark/75 text-base leading-relaxed mb-5">
-                „{review.text}"
+                „{review.text}&quot;
               </p>
 
               {/* Author */}
