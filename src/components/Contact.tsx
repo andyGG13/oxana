@@ -35,14 +35,6 @@ export default function Contact() {
               <p className="text-dark/60 text-sm font-medium uppercase mb-3">Öffnungszeiten</p>
               <div className="space-y-2 text-dark/75 text-sm">
                 <div className="flex justify-between">
-                  <span className="font-medium">Samstag:</span>
-                  <span>09:00–14:00</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="font-medium">Sonntag:</span>
-                  <span>Geschlossen</span>
-                </div>
-                <div className="flex justify-between">
                   <span className="font-medium">Montag:</span>
                   <span>Geschlossen</span>
                 </div>
@@ -61,6 +53,14 @@ export default function Contact() {
                 <div className="flex justify-between">
                   <span className="font-medium">Freitag:</span>
                   <span>09:00–19:00</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="font-medium">Samstag:</span>
+                  <span>09:00–14:00</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="font-medium">Sonntag:</span>
+                  <span>Geschlossen</span>
                 </div>
               </div>
               <p className="text-dark/60 text-sm mt-4">
