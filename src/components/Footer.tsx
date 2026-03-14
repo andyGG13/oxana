@@ -70,20 +70,6 @@ export default function Footer() {
                 </p>
               </div>
             </div>
-            <div className="mt-4">
-              <h4 className="font-semibold text-cream mb-2">Öffnungszeiten</h4>
-              <table className="text-cream/80 text-sm">
-                <tbody>
-                  <tr><td className="pr-3">Montag</td><td>09:00 – 18:00</td></tr>
-                  <tr><td className="pr-3">Dienstag</td><td>09:00 – 18:00</td></tr>
-                  <tr><td className="pr-3">Mittwoch</td><td>09:00 – 18:00</td></tr>
-                  <tr><td className="pr-3">Donnerstag</td><td>09:00 – 18:00</td></tr>
-                  <tr><td className="pr-3">Freitag</td><td>09:00 – 18:00</td></tr>
-                  <tr><td className="pr-3">Samstag</td><td>09:00 – 14:00</td></tr>
-                  <tr><td className="pr-3">Sonntag</td><td>geschlossen</td></tr>
-                </tbody>
-              </table>
-            </div>
           </div>
         </div>
 
